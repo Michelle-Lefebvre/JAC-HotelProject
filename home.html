@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="style/home.css">
+</head>
+<body>
+
+    <div id="divNav">
+        <img src="image/sea.jpg" alt="sea">
+        <h2>Hotel motel</h2>
+        <h1>Discover the dream island</h1>
+        <ul>
+            <li><a href="home.html">resorts</a></li>
+            <li><a href="home.html">dining</a></li>
+            <li><a href="home.html">activities</a></li>
+        </ul>
+        <button>Book now</button>
+    </div>
+
+    <div id="divGalary">
+        <img src="image/galary_1.jpg" alt="galary_1">
+        <img src="image/galary_2.jpg" alt="galary_1">
+        <img src="image/galary_3.jpg" alt="galary_1">
+    </div>
+
+    <hr>
+
+    <div id="divPackage">
+        <div class="package">
+            <h3>Wedding package</h3>
+            <h3>1,000,000$</h3>
+            <div><img src="image/wedding.jpg" alt="wedding"></div>
+            <ul>
+                <li>Perfect site</li>
+                <li>Luxurious decorate</li>
+                <li>Delicious food</li>
+                <li> Gorgeous room</li>
+            </ul>
+        </div>
+        <div class="package">
+            <h3>Family package</h3>
+            <h3>1,000,000$</h3>
+            <div><img src="image/family.jpg" alt="family"></div>
+            <ul>
+                <li>Perfect site</li>
+                <li>Luxurious decorate</li>
+                <li>Delicious food</li>
+                <li> Gorgeous room</li>
+            </ul>           
+        </div>
+        <div class="package">
+            <h3>Meeting package</h3>
+            <h3>1,000,000$</h3>
+            <div><img src="image/meeting.jpg" alt="meeting"></div>
+            <ul>
+                <li>Perfect site</li>
+                <li>Luxurious decorate</li>
+                <li>Delicious food</li>
+                <li> Gorgeous room</li>
+            </ul>    
+        </div>
+        <div class="package">
+            <h3>King package</h3>
+            <h3>1,000,000$</h3>
+            <div><img src="image/golf.jpg" alt="meeting"></div>
+            <ul>
+                <li>Perfect site</li>
+                <li>Luxurious decorate</li>
+                <li>Delicious food</li>
+                <li> Gorgeous room</li>
+            </ul>
+        </div>
+        <div class="package">
+            <h3>Queen package</h3>
+            <h3>1,000,000$</h3>
+            <div><img src="image/spa.jpg" alt="meeting"></div>
+            <ul>
+                <li>Perfect site</li>
+                <li>Luxurious decorate</li>
+                <li>Delicious food</li>
+                <li> Gorgeous room</li>
+            </ul>
+        </div>
+        <div class="package">
+            <h3>Adventure package</h3>
+            <h3>1,000,000$</h3>
+            <div><img src="image/diving.jpg" alt="meeting"></div>
+            <ul>
+                <li>Perfect site</li>
+                <li>Luxurious decorate</li>
+                <li>Delicious food</li>
+                <li> Gorgeous room</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="divForm">
+        <form action="get" >
+            <div>
+                <label for="numPerson">Number of person</label>
+                <input type="number" id="numPerson"/>
+            </div>
+            <div>
+                <label for="slcPackage">Package</label>
+                <select name="slcPackage" id="slcPackage">
+                    <option value="Wedding">Wedding</option>
+                    <option value="Family">Family</option>
+                    <option value="Meeting">Meeting</option>
+                    <option value="King">King</option>
+                    <option value="Queen">Queen</option>
+                    <option value="Adventure">Adventure</option>
+                    <option value="FreeChoice" selected>FreeChoice</option>
+                </select>
+            </div>
+            <div>
+                <label for="enterDate">From</label>
+                <input type="date" id="enterDate"/>
+            </div>
+            <div>
+                <label for="leaveDate">To</label>
+                <input type="date" id="leaveDate"/>
+            </div> 
+            <div id="divSpecialNeeds">
+                <label for="specialNeeds">Special Needs</label>
+                <textarea name="specialNeeds" id="specialNeeds"  rows="2"></textarea>
+            </div> 
+            <div>
+                <label for="tel">Tel</label>
+                <input type="tel" id="tel"/>
+            </div> 
+            <div>
+                <input type="submit"/>
+            </div> 
+        </form>
+    </div>
+
+    <div id="divArticle">
+
+    </div>
+    
+</body>
+</html>

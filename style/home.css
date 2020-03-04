@@ -1,8 +1,6 @@
 @charset "utf-8";
 
 #divNav{
-    /* height: 900px; */
-    /*background-image: url("../image/sea.jpg");*/
     position: relative;
     padding-bottom: 54% ;
 }
@@ -59,34 +57,9 @@
 hr{
     width: 90%;
 }
-
-#divPackage{
-    margin: 2% 1%;
-	display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* grid-template-rows: 60vh 60vh; */
+#divPackage,li{
+    font-size: large;
 }
-
-.package{
-    margin: 3%;
-}
-
-.package h3{
-    margin: 1% auto;
-    text-align: center;
-}
-
-.package div{
-    padding-bottom:66.6% ;
-    position: relative;
-}
-
-.package img{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-}
-
 #divForm{
     background-color: rgb(160, 209, 241);
     padding-top: 1%;
@@ -104,21 +77,5 @@ hr{
     display: block;
 }
 
-@media screen and (min-width:401px) and (max-width: 768px){
-    #divGalary img{
-        width: 49%;
-    }
-    #divPackage{
-        grid-template-columns: 1fr 1fr;
-    }
-}
 
-@media screen and (max-width:401px){
-    #divGalary img{
-        width: 100%;
-    }
-    #divPackage{
-        grid-template-columns: 1fr;
-    }
-}
 

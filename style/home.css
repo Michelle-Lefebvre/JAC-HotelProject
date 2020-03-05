@@ -57,25 +57,14 @@
 hr{
     width: 90%;
 }
+
 #divPackage,li{
     font-size: large;
 }
-#divForm{
-    background-color: rgb(160, 209, 241);
+#secForm{
+    background-color: beige;
     padding-top: 1%;
     padding-bottom:1%;
 }
-#divForm form{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-}
-#divForm form div{
-    text-align: center;
-    margin: 2% auto;
-}
-#divForm form div label{
-    display: block;
-}
-
 
 

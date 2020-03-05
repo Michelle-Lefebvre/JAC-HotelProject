@@ -1,0 +1,115 @@
+#divNav{
+    /* height: 900px; */
+    /*background-image: url("../image/sea.jpg");*/
+    position: relative;
+    padding-bottom: 1% ;
+}
+.carousel-inner{
+    height: 100%;
+}
+#divNav h1,h2{ 
+    position: absolute;  
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%); 
+}
+#divNav h2{
+    top:10%;
+}
+#divNav h1{
+    top: 35%;
+}
+
+#divNav ul{
+    position: absolute;
+    width: 80%;
+    top:15%;
+    left: 10%
+}
+
+#divNav ul li{
+    text-decoration: none;
+    display: inline;
+    padding-right: 5%;
+}
+
+#divNav ul li a{
+    text-decoration: none;
+}
+
+#divNav button{
+    position: absolute;
+    top:17%;
+    right: 10%;
+}
+
+#divGalary{   
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 5%;
+}
+
+#divGalary img{   
+    width: 19.815%;   
+}
+
+hr{
+    width: 90%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 35px;
+    width: 35px;
+    outline: black;
+    
+}
+ol.carousel-indicators {
+    position: absolute;
+    bottom: 30px;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+ }
+ 
+ ol.carousel-indicators li,
+ ol.carousel-indicators li.active {
+    width: 2rem;
+    height: 4px;
+    margin: 0;
+    border-radius: 5%;
+    border: 0;
+    
+    
+ }
+ 
+ ol.carousel-indicators li {
+    background: white;
+    margin-left: .5rem;
+    margin-right: .5rem;
+ }
+ 
+ ol.carousel-indicators li.active {
+    background: rgb(50, 50, 51);
+ }
+
+
+
+@media screen and (min-width:401px) and (max-width: 768px){
+    #divGalary img{
+        width: 49%;
+    }
+    #divPackage{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:401px){
+    #divGalary img{
+        width: 100%;
+    }
+    #divPackage{
+        grid-template-columns: 1fr;
+    }
+}
+

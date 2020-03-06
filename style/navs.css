@@ -56,3 +56,11 @@ button.cta:hover {
     background-color: #94618e;
     color: white;
 }
+button.cta-foot {
+    color: white;
+    background-color: #94618e;
+}
+button.cta-foot:hover {
+    background-color:  #49274a;
+    color: white;
+}

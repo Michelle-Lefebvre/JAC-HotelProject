@@ -1,6 +1,14 @@
 .galary{
     background-color:black;
 }
-img{
+.slider img{
     padding: 0 2px 0 3px;
+}
+h3{
+    font-family: 'Niconne', cursive;
+    color: #043E5E;
+}
+h5{
+    font-family: 'Ubuntu', sans-serif;
+    color: #043E5E;
 }

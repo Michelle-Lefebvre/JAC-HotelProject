@@ -4,7 +4,30 @@
     font-size: large;
 }
 #secForm{
-    background-color: beige;
+    background-color: #CDE2F3;
     padding-top: 1%;
     padding-bottom:1%;
 }
+
+#divPackage h3{
+    font-family: 'Ubuntu', sans-serif;
+    color: #043E5E;
+}
+
+#divPackage li{
+    font-family: 'Ubuntu', sans-serif;
+    color: #043E5E;
+}
+
+#secForm{
+    font-family: cursive;
+}
+
+#divArticle h4{
+    font-family: 'Ubuntu', sans-serif;
+    color: #043E5E;
+}
+#divArticle p{
+    font-family: cursive;
+}
+

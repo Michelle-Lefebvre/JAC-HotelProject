@@ -16,9 +16,7 @@ hr{
     
     
 }
-.carousel-control-prev, .carousel-control-next{
-    height: 30rem;
-}
+
 ol.carousel-indicators {
     position: absolute;
     bottom: 2rem;

@@ -1,94 +1,10 @@
 @charset "utf-8";
-.brand {
-    font-family: 'Ubuntu', cursive;
-    font-weight: bold;
-    color: #49274a;
-}
-.logo {
-    font-family: 'Ruthie', cursive;
-    font-size: 5rem;
-    color: #94618e;
-}
-@font-face {
-    font-family:OPTICubaLibreTwo;
-    src: url("https://webfonts.ffonts.net/OPTICubaLibreTwo.font") format("opentype");
-}
 
-@font-face {
-    font-family: OPTICubaLibreTwo;
-    font-weight: bold;
-    src: url("https://webfonts.ffonts.net/OPTICubaLibreTwo.font") format("opentype");
+#divPackage,li{
+    font-size: large;
 }
-.titles {
-  font-family: OPTICubaLibreTwo;
-  color: #49274a;
-}
-.brand-dropdown {
-    background-color: #94618e;
-}
-
-
-
-#divPackage{
-    margin: 2% 1%;
-	display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* grid-template-rows: 60vh 60vh; */
-}
-
-.package{
-    margin: 3%;
-}
-
-.package h3{
-    margin: 1% auto;
-    text-align: center;
-}
-
-.package div{
-    padding-bottom:66.6% ;
-    position: relative;
-}
-
-.package img{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-}
-
-#divForm{
-    background-color: rgb(160, 209, 241);
+#secForm{
+    background-color: beige;
     padding-top: 1%;
     padding-bottom:1%;
 }
-#divForm form{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-}
-#divForm form div{
-    text-align: center;
-    margin: 2% auto;
-}
-#divForm form div label{
-    display: block;
-}
-
-
-@media screen and (min-width:401px) and (max-width: 768px){
-    #divGalary img{
-        width: 49%;
-    }
-    #divPackage{
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media screen and (max-width:401px){
-    #divGalary img{
-        width: 100%;
-    }
-    #divPackage{
-        grid-template-columns: 1fr;
-    }
-}
-

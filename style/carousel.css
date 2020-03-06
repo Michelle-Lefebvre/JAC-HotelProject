@@ -1,0 +1,68 @@
+#divNav{
+    /* height: 900px; */
+    /*background-image: url("../image/sea.jpg");*/
+    
+    padding-bottom: 1% ;
+}
+
+
+hr{
+    width: 90%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 35px;
+    width: 35px;
+    outline: black;
+    
+}
+ol.carousel-indicators {
+    position: absolute;
+    bottom: 30px;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+ }
+ 
+ ol.carousel-indicators li,
+ ol.carousel-indicators li.active {
+    width: 2rem;
+    height: 4px;
+    margin: 0;
+    border-radius: 5%;
+    border: 0;
+    
+    
+ }
+ 
+ ol.carousel-indicators li {
+    background: white;
+    margin-left: .5rem;
+    margin-right: .5rem;
+ }
+ 
+ ol.carousel-indicators li.active {
+    background: rgb(50, 50, 51);
+ }
+
+
+
+
+@media screen and (min-width:401px) and (max-width: 768px){
+    #divGalary img{
+        width: 49%;
+    }
+    #divPackage{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:401px){
+    #divGalary img{
+        width: 100%;
+    }
+    #divPackage{
+        grid-template-columns: 1fr;
+    }
+}
+

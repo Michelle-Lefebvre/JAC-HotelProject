@@ -14,6 +14,10 @@ hr{
     width: 2rem;
     outline: black;
     
+    
+}
+.carousel-control-prev, .carousel-control-next{
+    height: 30rem;
 }
 ol.carousel-indicators {
     position: absolute;
@@ -22,6 +26,7 @@ ol.carousel-indicators {
     left: 0;
     right: 0;
     width: auto;
+    
  }
  
  ol.carousel-indicators li,
@@ -36,7 +41,7 @@ ol.carousel-indicators {
  }
  
  ol.carousel-indicators li {
-    background: white;
+    background: rgb(97, 93, 93);
     margin-left: .5rem;
     margin-right: .5rem;
  }

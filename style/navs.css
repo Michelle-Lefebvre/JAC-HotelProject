@@ -12,6 +12,9 @@ font-family: 'Lato', sans-serif;
 
 COLORS
 #94618e, #49274a, #f4decB, #F8eee7*/
+.container{
+    z-index: 5;
+}
 
 .brand {
     font-family: 'Ubuntu', cursive;
